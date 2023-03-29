@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body{
+    font-family: 'IBM Plex Sans', sans-serif; 
+    background-color: rgb(240,244,245);
+} 
+ 
+a{
+    text-decoration: none; 
+    color: inherit;
+} 
+li{
+    list-style: none;
+}  
+.m-auto{
+    margin-left: auto; 
+    margin-right: auto;
+}
+/* HEADER CSS */
+header{
+    max-width: 83vw; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    height: 18vh;
+} 
+
+.logo img{
+width: 150px;
+} 
+nav ul{
+    display: flex;
+}  
+nav ul li a{
+font-weight: bold; 
+margin-left: 3rem;
+} 
+ 
+/* MAIN CSS */ 
+.main{
+    display: flex; 
+    margin-left: 8rem;  
+    justify-content: space-between;  
+    margin-top: 4rem;
+
+} 
+.main-left{
+    width: 45%;   
+    /* position: relative; */
+}     
+.main-left::before{
+    content: "";
+    background-image: url('../assets/stethoscope.png');
+    width: 100%;
+    height: 80%;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    right: 134px;
+    top: 120px; 
+    opacity: 0.9;
+}
+.main-left p{
+    padding-left: 10px; 
+    color: #7c7c7c; 
+    margin: 1.5rem 0;
+}
+.main-left h1{
+font-size: 70px;
+line-height: 1.2;
+
+} 
+.btn{
+padding: 15px 40px;
+border-radius: 30px;
+font-size: 20px;
+font-weight: bold;
+margin-right: 317px;
+color: white;
+background-color: rgb(32,188,126); 
+border: none;
+}
+.main-right{
+    width: 36%; 
+    position: relative;
+}
+ img[alt="greenBox"]{
+    width: 500px;
+position: absolute;
+right: 0px;
+}  
+img[alt="mouse"]{
+    position: absolute;
+    top: 610px;
+    right: 744px;
+}
+
+img[alt="yellowBox"]{
+position: absolute;
+right: 10px;
+width: 410px;
+top: 41px;
+} 
+
+img[alt="doctor"]{ 
+    position: absolute;
+    width: 462px; 
+    right:0px; 
+    top:-110px;
+}

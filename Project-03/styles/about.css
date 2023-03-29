@@ -1,0 +1,48 @@
+.about-main{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    max-width: 45vw; 
+    gap: 40px; 
+    margin-top: 10rem ;
+} 
+
+.about-main h1{
+    font-size: 32px;
+    color: rgb(32,188,126);
+    text-align: center;
+} 
+.about-main p{
+    font-size: 18px; 
+    font-weight: 400; 
+    text-align: center;
+}  
+
+.features{
+    display: flex;
+justify-content: space-between;
+width: 100%;
+}
+
+.feature-box{
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgb(240,244,245);
+    box-shadow: 0 0 10px black;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+.feature-box span{
+    font-size: 25px; 
+    color:rgb(32,188,126) ; 
+    font-weight: bold;
+} 
+.feature-box p{
+    font-size: 20px; 
+    font-weight: 400; 
+}

@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Red+Rose:wght@700&display=swap');
+ /* CSS RESET */
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    /* overflow: hidden; */
+} 
+body{
+    max-height: 100vh; 
+    max-width: 100vw;  
+    font-family: 'Poppins', sans-serif; 
+    background-color: rgb(15,15,16);
+}  
+.max-width{
+    width: 70vw; 
+    margin-left: auto; 
+    margin-right: auto; 
+    
+} 
+a{
+    text-decoration: none; 
+    color: inherit;
+} 
+li{
+    list-style: none;
+}  
+.font-size1{
+    font-size: 12px;
+}
+.font-size2{
+    font-size: 10px; 
+}    
+.text-color{
+    color: rgb(189, 192, 194); 
+}
+ /*NAVIGATION CSS  */
+
+nav{
+    display: flex; 
+    justify-content: space-between; 
+    height: 15vh; 
+    align-items: center;
+} 
+nav img{
+    width: 25px;  
+    height: 25px;
+} 
+nav ul{
+    display: flex;   
+    align-items: center;
+  
+}
+nav ul li {
+    color: white; 
+    margin-right: 40px; 
+    font-weight: bold;
+}  
+nav ul li a{
+font-size: 14px;
+}
+.btn{
+    padding: 10px 40px; 
+    background-color: #1e1e21;   
+    border-radius: 8px; 
+    color: white; 
+    font-family: 'Poppins', sans-serif;  
+    font-size: 14px; 
+}   
+
+/* MAIN CSS */ 
+ main{ 
+    display: flex;  
+    margin-top: 2.5rem;  
+
+} 
+img[alt="main-image"]{
+    width: 230px;
+    position: relative;
+    top: -250px;
+    left: 60px;
+    
+} 
+ .main-right{
+
+    max-width: 30rem; 
+    margin-left: 10rem; 
+    color: white; 
+    display: flex; 
+    flex-direction:column ; 
+    gap: 20px; 
+    padding: 10px;
+} 
+img[alt="on-ear"]{
+    width: 320px; 
+    margin-left: 2rem;
+}  
+.main-right p{
+    color: rgb(189, 192, 194); 
+    font-size: 12px;
+}  
+.main-right h1{
+    font-size: 40px;
+}
+.main-right h4{
+    margin: 0.6rem 0;
+} 
+
+.shopping-bag{
+    margin-top: 1rem; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    width: 220px; 
+    padding: 10px 20px; 
+    background-color: rgb(30,30,33); 
+    border-radius: 8px;
+} 
+.shopping-bag .add{
+    font-size:12px; 
+}  
+/* COMPANY SECTION CSS */
+.company-section{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 8rem; 
+    margin-top: -30px; 
+    
+} 
+.company-section img{
+    width: 80px;
+} 
+
+/* SPECS SECTION CSS */ 
+.specs-section{
+    text-align: center; 
+    margin-top: 6rem; 
+}  
+
+img[alt="specs-logo"]{
+    scale: 0.8;
+} 
+.specs-main{
+    display: flex; 
+    justify-content: center;  
+    gap:3rem;
+
+} 
+img[alt="specs-image"]{ 
+    scale: 0.8; 
+    margin-left: 10px;  
+    margin-top: 30px;
+
+} 
+
+.specs-left .content{
+    margin: 1rem 0; 
+    color:white; 
+    font-size: 12px; 
+    
+}  
+.specs-left .content >*{
+    margin: 2px 0; 
+    text-align: start;
+} 
+.specs-left .content img{
+    margin-right: 70px; 
+    scale: 0.8;
+}
+ 
+.specs-left div:first-child{
+    margin-left: 30px;
+} 
+.specs-left div:last-child{
+    margin-left: 30px;
+} 
+
+/* CASE-SECTION CSS */ 
+.case-section{
+   margin-top: 6rem;  
+   display:flex;  
+   flex-direction: column; 
+   align-items: center; 
+   gap: 30px;
+ }  
+
+ img[alt="case-logo"]{
+    scale: 0.8;
+}  
+
+.case-main{
+    display: flex; 
+    justify-content: center; 
+    max-width: 500px;
+
+} 
+img[alt="case-image"]{
+    scale: 0.8;
+}   
+.case-right{
+    display: flex;  
+    flex-direction: column; 
+    justify-content: center; 
+    padding: 20px;
+}  
+.case-right p{
+    line-height: 2;
+} 
+.more-info{
+    margin-top: 1.2rem;
+    padding: 8px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(30,30,33);
+    border-radius: 8px;
+    color: white;
+    font-size: 12px;
+    max-width: 125px;
+  } 
+
+  /* BUY PRODUCT SECTION */ 
+  .buy-product{
+    display: flex; 
+    justify-content: center;  
+    align-items: center;
+    background-color: rgb(24,26,27); 
+    gap: 5rem; 
+    border-radius: 12px; 
+    margin-top: 2rem;
+  } 
+  .buy-product-left,
+  .buy-product-right{
+    padding: 1.5rem 0;
+  } 
+  .buy-product-left{
+    max-width: 200px; 
+    color: white;
+  } 
+  .buy-product-left>*{
+    margin-top: 1.2rem; 
+  } 
+   .buy-now{
+    display: flex; 
+    align-items: center;  
+    color: white; 
+    background-color: black; 
+    padding: 10px 13px; 
+    max-width: 110px; 
+    justify-content: space-between; 
+    border-radius: 8px;
+   }
+ 
+   /* CHOOSE PRODUCTS SECTION CSS */ 
+
+   img[alt="product-logo"]{
+    scale: 0.6;
+   } 
+  .products-section{
+    display: flex; 
+     flex-direction: column; 
+     align-items: center; 
+     margin-top: 4rem;
+  }
+  .products-container{
+      margin-top: 2.5rem; 
+      display: flex; 
+      max-width: 50vw;  
+      flex-wrap: wrap; 
+      gap:30px; 
+      padding-left: 5rem; 
+    }
+    .product{
+     width: 130px; 
+     height: 130px; 
+     background-color: rgb(24,26,27); 
+     display: flex; 
+     flex-direction: column; 
+     color:white;  
+     border-radius: 8px; 
+     position: relative; 
+     margin-top: 1rem;
+    }   
+.product img{
+width: 75px;
+position: relative;
+text-align: center;
+top: -39px;
+left: 50%;
+transform: translate(-50%);
+    } 
+
+ img[alt="buy-product-shoppingBag"]{
+    scale: 0.2; 
+    position: absolute; 
+    top:-18px;  
+    left: 63px;
+ } 
+
+ .product-info{ 
+   display: flex; 
+   align-items: center; 
+   width: 100%; 
+   position: absolute; 
+   bottom: 0; 
+   padding: 5px 10px;
+ } 
+ .product-info div{
+background-color: black;  
+background-color: black;
+width: 26px;
+height: 28px;
+margin-left: 32px;
+border-radius: 8px;
+ } 
+
+ /* FOOTER CSS */ 
+ img[alt="footer-logo"]{
+    width: 25px ; 
+    height: 25px;
+ } 
+ footer{
+    margin-top: 7rem;  
+    display: flex; 
+    justify-content: space-between; 
+    height: 250px; 
+    align-items: flex-start; 
+    color: white;
+ } 
+  
+ .footer-products p{
+    padding-bottom: 13px;
+ } 
+ footer ul li{
+    padding: 4px 0;
+ }  
+ .email-input{
+    position: relative;
+ }
+ .email-input input{
+    background-color: rgb(24,26,27); 
+    padding: 13px 10px; 
+    width: 27rem;  
+    border-radius: 8px; 
+    border: none; 
+    outline: none; 
+    color: rgb(189, 192, 194);  
+    font-family: 'Poppins', sans-serif;  
+ 
+
+ } 
+ .subscribe{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around; 
+    width: 140px;  
+    height: 40px;
+    background-color: rgb(10,10,11);  
+    border-radius: 8px; 
+    position: absolute; 
+    right: 15px; 
+    top:4px;
+ }  
+ img[alt="rightArrow"]{
+    scale: 0.8;
+ }
+ .subscribe>*{
+    /* padding:8px 10px;   */
+    background-color: #101011; 
+
+ }  
+ .social-media{
+    margin-top: 2rem;
+ }
+ .social-media img{
+    scale: 0.8; 
+    margin-right: 1rem;
+ } 
+
+ img[alt="upArrow"]{ 
+    scale: 0.8;
+    position: relative; 
+    left: 1418px;
+bottom: 246px;
+ }
